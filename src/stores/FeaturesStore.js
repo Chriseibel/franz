@@ -3,7 +3,7 @@ import { computed, observable } from 'mobx';
 import Store from './lib/Store';
 import CachedRequest from './lib/CachedRequest';
 
-import delayApp from '../features/delayApp';
+// import delayApp from '../features/delayApp';
 import spellchecker from '../features/spellchecker';
 import serviceProxy from '../features/serviceProxy';
 
@@ -44,7 +44,7 @@ export default class FeaturesStore extends Store {
   }
 
   _enableFeatures() {
-    delayApp(this.stores, this.actions);
+    // delayApp(this.stores, this.actions);
     spellchecker(this.stores, this.actions);
     serviceProxy(this.stores, this.actions);
   }

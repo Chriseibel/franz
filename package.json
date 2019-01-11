@@ -33,6 +33,7 @@
     "@meetfranz/electron-notification-state": "^1.0.0",
     "address-rfc2822": "^2.0.1",
     "auto-launch": "https://github.com/meetfranz/node-auto-launch.git",
+    "babel-register": "6.26.0",
     "classnames": "2.2.6",
     "debug-electron": "^0.0.4",
     "du": "^0.1.0",
